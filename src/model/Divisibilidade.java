@@ -1,5 +1,8 @@
 package model;
 
+// Escreva um programa em Java, que leia um número e informe se ele é divisível por 10, por 5 ou por 2 ou se não é
+// divisível por nenhum deles.
+
 public class Divisibilidade {
 
     private int numero;
