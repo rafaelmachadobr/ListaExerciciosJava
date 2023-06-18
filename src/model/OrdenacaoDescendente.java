@@ -1,6 +1,7 @@
 package model;
 
-import java.util.List;
+// Dados três valores A, B e C, construa um programa em JAVA, que imprima os valores de forma descendente
+// (do maior para o menor).
 
 public class OrdenacaoDescendente {
 
