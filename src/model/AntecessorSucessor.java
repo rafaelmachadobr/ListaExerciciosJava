@@ -1,5 +1,7 @@
 package model;
 
+// Desenvolva um programa em Java que leia um número inteiro e imprima o seu antecessor e seu sucessor.
+
 public class AntecessorSucessor {
 
     private int numero;
@@ -11,6 +13,12 @@ public class AntecessorSucessor {
 
     public AntecessorSucessor(int numero) {
         this.numero = numero;
+    }
+
+    public AntecessorSucessor(int numero, int antecessor, int sucessor) {
+        this.numero = numero;
+        this.antecessor = antecessor;
+        this.sucessor = sucessor;
     }
 
     public int getNumero() {
@@ -25,8 +33,16 @@ public class AntecessorSucessor {
         return antecessor;
     }
 
+    public void setAntecessor(int antecessor) {
+        this.antecessor = antecessor;
+    }
+
     public int getSucessor() {
         return sucessor;
+    }
+
+    public void setSucessor(int sucessor) {
+        this.sucessor = sucessor;
     }
 
     private void calcularAntecessor() {
