@@ -1,5 +1,8 @@
 package model;
 
+// Crie um programa que leia o valor do salário mínimo e o valor do salário de um usuário, calcule a quantidade de
+// salários mínimos esse usuário ganha e imprima o resultado. (Salário mínimo = R$1.212,00).
+
 public class SalarioMinimo {
 
     private double salarioMinimo;

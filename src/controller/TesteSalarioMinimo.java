@@ -16,8 +16,8 @@ public class TesteSalarioMinimo {
         System.out.println("Digite o valor do salário do usuário:");
         double salarioUsuario = scanner.nextDouble();
 
-        SalarioMinimo salarioMinimoObj = new SalarioMinimo(salarioMinimo, salarioUsuario);
+        SalarioMinimo sm = new SalarioMinimo(salarioMinimo, salarioUsuario);
 
-        System.out.println("O usuário recebe " + salarioMinimoObj.calcularQuantidadeSalariosMinimos() + " salários mínimos.");
+        System.out.println("O usuário recebe " + sm.calcularQuantidadeSalariosMinimos() + " salários mínimos.");
     }
 }
