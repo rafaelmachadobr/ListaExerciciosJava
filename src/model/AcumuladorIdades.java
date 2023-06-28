@@ -1,6 +1,7 @@
 package model;
 
 // Leia a idade de 20 pessoas e exiba a soma das idades.
+// Leia a idade de 20 pessoas e exiba a média das idades.
 
 public class AcumuladorIdades {
 
@@ -27,6 +28,14 @@ public class AcumuladorIdades {
             soma += this.idades[i];
         }
         return soma;
+    }
+
+    public int calcularMedia() {
+        int soma = 0;
+        for (int i = 0; i < this.idades.length; i++) {
+            soma += this.idades[i];
+        }
+        return soma / this.idades.length;
     }
 
 }

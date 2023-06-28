@@ -19,8 +19,10 @@ public class TesteAcumuladorIdades {
 
         AcumuladorIdades acumuladorIdades = new AcumuladorIdades(idades);
         int soma = acumuladorIdades.calcularSoma();
+        int media = acumuladorIdades.calcularMedia();
 
         System.out.println("A soma das idades é: " + soma);
+        System.out.println("A média das idades é: " + media);
 
         scanner.close();
 
